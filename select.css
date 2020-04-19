@@ -1,0 +1,45 @@
+.visor{
+  position: relative;
+}
+.select{
+  display: none;
+  grid-auto-rows: 36px ;
+  box-sizing: border-box;
+  z-index: 2;
+  overflow: visible;
+  height: 100px;
+  overflow: scroll;
+  scroll-behavior: smooth;
+}
+.select::-webkit-scrollbar{
+  width: 10px;
+}
+.select div{
+  height: 36px;
+}
+.focus{
+  position: absolute;
+  display: none;
+  height: 36px;
+  z-index: -1;
+  width: 100%;
+  top: 0;
+  border-top: solid 0.5px #aba9a2;
+  border-bottom: solid 0.5px #aba9a2;
+}
+
+.select_radio{
+  display: none;
+}
+.select label{
+  height: 28px;
+  text-align: center;
+  align-self: center;
+  padding-top: 5px;
+  box-sizing: border-box;
+  color: #292929;
+  font-size: 23px;
+
+}
+
+
